@@ -10,6 +10,5 @@ function isPalindrome(n) {
 }
 
 n = 1234321;
-let numIsPalindrome = isPalindrome(n);
-let result = numIsPalindrome ? `Число ${n} является палиндромом` : `Число ${n} не палиндром`;
+let result = isPalindrome(n) ? `Число ${n} является палиндромом` : `Число ${n} не палиндром`;
 console.log(result);
